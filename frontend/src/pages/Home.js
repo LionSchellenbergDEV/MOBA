@@ -7,6 +7,20 @@ function Home() {
             <div id="teaser">
             </div>
             <main>
+                <div id="gameIntro">
+                    <img src="https://feedthemultiverse.com/wp-content/uploads/2018/07/ozzyflat.jpg" alt=""/>
+                    <p>
+                        <h1>Schatten über Eldoria: Der Ruf der Dunkelheit</h1>
+                        In den Tiefen uralter Wälder und auf den Gipfeln schneebedeckter Berge lauert das Unbekannte.
+                        Dunkle Mächte stiften Zwietracht und bedrohen das fragile Gleichgewicht zwischen den Völkern,
+                        die seit Jahrhunderten in einem zarten Frieden leben. Alte Prophezeiungen erwachen zum Leben,
+                        und mystische Kreaturen erheben sich aus ihren Verstecken, um sich in den Konflikt einzumischen.
+                        Wirst du dich der Herausforderung stellen und die Schatten vertreiben, die das Land in
+                        Dunkelheit hüllen, oder wirst du in den Strudel der Machtspiele und Intrigen gezogen, die die
+                        Welt zu verschlingen drohen? Werde Teil einer epischen Saga und schreibe deine eigene
+                        Geschichte, in der jedes Entscheidungen das Schicksal von Königreichen und alten Reichen
+                        bestimmt.</p>
+                </div>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, numquam, obcaecati. Ab aliquam commodi
                 earum facilis fuga fugit magni nemo repellat unde, voluptates. A accusantium adipisci assumenda culpa
                 error facilis illum labore libero nulla, obcaecati, quisquam recusandae voluptatibus? Cum eaque expedita
@@ -235,7 +249,6 @@ function Home() {
                 iste nulla odio optio qui, ratione rerum, suscipit voluptatem. Adipisci amet asperiores, aspernatur
                 atque cupiditate incidunt inventore mollitia nulla possimus quod reprehenderit repudiandae saepe sint
                 temporibus, ullam.
-
             </main>
         </div>
 

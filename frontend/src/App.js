@@ -25,7 +25,7 @@ function App() {
         <Router>
             <div>
                 <header id="header">
-                    <strong>MOBA</strong>
+                    <strong>Schatten über Eldoria</strong>
                     <nav>
                         <a href="/">Startseite</a>
                         <a href="/login">Anmelden</a>
