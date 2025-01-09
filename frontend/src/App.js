@@ -1,7 +1,9 @@
-import React, { useEffect, useState } from 'react';
-import axios from 'axios';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from './pages/Home';
+import Login from './pages/Login';
 
-function App() {
+/*function App() {
   const [data, setData] = useState(null);
 
   useEffect(() => {
@@ -16,6 +18,26 @@ function App() {
         {data ? <p>{data}</p> : <p>Lade...</p>}
       </div>
   );
+}
+*/
+function App() {
+    return (
+        <Router>
+            <div>
+                <nav>
+                    <ul>
+                        <li><a href="/">Startseite</a></li>
+                        <li><a href="/login">Anmelden</a></li>
+                    </ul>
+                </nav>
+
+                <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/login" element={<Login />} />
+                </Routes>
+            </div>
+        </Router>
+    );
 }
 
 export default App;
