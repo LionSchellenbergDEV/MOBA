@@ -24,16 +24,17 @@ function App() {
     return (
         <Router>
             <div>
-                <nav>
-                    <ul>
-                        <li><a href="/">Startseite</a></li>
-                        <li><a href="/login">Anmelden</a></li>
-                    </ul>
-                </nav>
+                <header id="header">
+                    <strong>MOBA</strong>
+                    <nav>
+                        <a href="/">Startseite</a>
+                        <a href="/login">Anmelden</a>
+                    </nav>
+                </header>
 
                 <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/login" element={<Login />} />
+                    <Route path="/" element={<Home/>}/>
+                    <Route path="/login" element={<Login/>}/>
                 </Routes>
             </div>
         </Router>
